@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_1", "HW_1\HW_1.csproj", "{031B79DE-BA7C-44DA-B815-D291AF6FB510}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW_1", "HW_1", "{4E1C29AE-469A-43CA-B64F-EB4D6458A4C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phones.api", "phones.api\phones.api.csproj", "{2B35F2E9-77C8-4769-859F-9A3441085E9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{031B79DE-BA7C-44DA-B815-D291AF6FB510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{031B79DE-BA7C-44DA-B815-D291AF6FB510}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{031B79DE-BA7C-44DA-B815-D291AF6FB510}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{031B79DE-BA7C-44DA-B815-D291AF6FB510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B35F2E9-77C8-4769-859F-9A3441085E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B35F2E9-77C8-4769-859F-9A3441085E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B35F2E9-77C8-4769-859F-9A3441085E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B35F2E9-77C8-4769-859F-9A3441085E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B35F2E9-77C8-4769-859F-9A3441085E9C} = {4E1C29AE-469A-43CA-B64F-EB4D6458A4C5}
 	EndGlobalSection
 EndGlobal
